@@ -175,7 +175,6 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="InventoryItemUpload\2021-06-01-16-36-48.mp4" />
     <Content Include="InventoryItemUpload\AddPage.png" />
     <Content Include="InventoryItemUpload\defaultUpload.png" />
     <Content Include="InventoryItemUpload\download.png" />
