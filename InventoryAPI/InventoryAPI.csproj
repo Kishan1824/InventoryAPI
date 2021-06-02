@@ -176,6 +176,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="InventoryItemUpload\AddPage.png" />
+    <Content Include="InventoryItemUpload\appGif.gif" />
     <Content Include="InventoryItemUpload\defaultUpload.png" />
     <Content Include="InventoryItemUpload\download.png" />
     <Content Include="InventoryItemUpload\ListPage.png" />
