@@ -28,21 +28,21 @@ on GitHub.
 
 2. Right-click on downloaded zip file. Click Properties. Check the checkbox for Unblock. Click Apply.
 
-You can skip this step if you are cloning the repository.
+  You can skip this step if you are cloning the repository.
 
 3. Open InventoryAPI.sln file via Visual Studio.
 
-Right-click on InventoryAPI.Database and select Set as Startup Project.
+  Right-click on InventoryAPI.Database and select Set as Startup Project.
 
-Open Package Manager Console in Visual Studio (Tools > NuGet Package Manager > Package Manager Console).
+  Open Package Manager Console in Visual Studio (Tools > NuGet Package Manager > Package Manager Console).
 
-Make sure Default Project is selected as ShopBridge.Database in the Package Manager Console.
+  Make sure Default Project is selected as ShopBridge.Database in the Package Manager Console.
 
-Copy the below command and paste it in the Package Manager Console window.
+  Copy the below command and paste it in the Package Manager Console window.
 
 PM > update-database
 
-NOTE : After pasting, hit Enter.
+  NOTE : After pasting, hit Enter.
 
 ## Run Project
 
