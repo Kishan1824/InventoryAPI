@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory.DB", "Inventory.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory.Services", "Inventory.Services\Inventory.Services.csproj", "{0B9775DF-7EAF-4362-8600-E7BCAE2DB3F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryUnitTest", "InventoryUnitTest\InventoryUnitTest.csproj", "{26357556-495D-485F-8BB9-5B54A643D11A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{0B9775DF-7EAF-4362-8600-E7BCAE2DB3F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B9775DF-7EAF-4362-8600-E7BCAE2DB3F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B9775DF-7EAF-4362-8600-E7BCAE2DB3F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26357556-495D-485F-8BB9-5B54A643D11A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26357556-495D-485F-8BB9-5B54A643D11A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26357556-495D-485F-8BB9-5B54A643D11A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26357556-495D-485F-8BB9-5B54A643D11A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
