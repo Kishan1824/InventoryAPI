@@ -6,10 +6,12 @@ using Inventory.Services;
 using System.Web;
 using Newtonsoft.Json;
 using System.IO;
+using System;
+using System.Web.Http.Cors;
 
 namespace InventoryAPI.Controllers
 {
-    //[EnableCors(origins:"*", headers:"*", methods:"*")]
+    [EnableCors(origins:"*", headers:"*", methods:"*")]
     [RoutePrefix("api/inventoryApp")]
     public class InventoryMasterController : ApiController
     {
@@ -29,9 +31,9 @@ namespace InventoryAPI.Controllers
                 var inventoryItems = _inventoryMasterService.GetInventoryMasters();
                 return Content(HttpStatusCode.OK, inventoryItems.AsQueryable());
             }
-            catch
+            catch(Exception ex)
             {
-                return InternalServerError();
+                return InternalServerError(ex);
             }
         }
 
@@ -48,9 +50,9 @@ namespace InventoryAPI.Controllers
                 }
                 return Content(HttpStatusCode.OK, inventoryMasterItem);
             }
-            catch
+            catch(Exception ex)
             {
-                return InternalServerError();
+                return InternalServerError(ex);
             }
         }
 
@@ -75,9 +77,9 @@ namespace InventoryAPI.Controllers
                 }
                 return Content(HttpStatusCode.OK, inventoryMasterItem);
             }
-            catch
+            catch(Exception ex)
             {
-                return InternalServerError();
+                return InternalServerError(ex);
             }
         }
 
@@ -107,9 +109,9 @@ namespace InventoryAPI.Controllers
                     return Content(HttpStatusCode.BadRequest, msg);
                 }
             }
-            catch
+            catch(Exception ex)
             {
-                return InternalServerError();
+                return InternalServerError(ex);
             }
         }
 
@@ -139,9 +141,9 @@ namespace InventoryAPI.Controllers
                     return Content(HttpStatusCode.BadRequest, msg);
                 }
             }
-            catch
+            catch(Exception ex)
             {
-                return InternalServerError();
+                return InternalServerError(ex);
             }
         }
     }
